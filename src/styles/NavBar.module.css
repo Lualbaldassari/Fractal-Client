@@ -1,0 +1,22 @@
+.NavBar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #069;
+}
+
+.btn {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  color: black;
+}
+

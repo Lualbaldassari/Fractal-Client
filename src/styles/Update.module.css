@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto auto auto;
+  gap: 20px;
+  width: 50%;
+  border: 3px solid #069;
+  padding: 10px;
+  
+}
+
+.header {
+  text-align: center;
+  color: #FAFAFA;
+  background-color: #305A72;
+  border: 1px solid #305A72;
+  margin: 10px 0 40px 0;
+}
+
+input {
+  font-family: 'Happy Monkey', cursive;
+  border: 1px solid #305A72;
+
+}
+
+input:focus{
+  box-shadow: 0 0 50px #305A72;;
+	padding: 3%;
+	border: 1px solid #09a3e0;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #305A72;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(60, 108, 240);
+  color: black;
+}
